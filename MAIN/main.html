@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Copia di Nike</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--icona della lente di ingrandimento presa da "https://fonts.google.com/icons"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!--icona per i preferiti presa da "https://fonts.google.com/icons"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!--icona carrello della spesa presa da "https://fonts.google.com/icons"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+</head>
+
+<body>
+    
+    <header>
+
+        <!--ho deciso di creare 3 div principali per l'header-->
+
+        <!--PRIMO DIV HEADER-->
+        <div id="boxPrimo">
+
+            <img src="icone/icona-air-jordan.png" alt="icona-air-jordan" id="icona-air-jordan">
+
+            <img src="icone/icona-converse.png" alt="icona-converse" id="icona-converse">
+
+            <ul>
+                <li>Trova un negozio</li>
+                <li>Aiuto</li>
+                <li>Unisciti a noi</li>
+                <li>Accedi</li>
+            </ul>
+        </div>
+
+        <!--SECONDO DIV HEADER-->
+        <div id="boxLogo">
+
+           <img src="../logo.png" alt="logo" id="logo"> 
+
+            <div id="boxOpzioni">
+
+                <ul id="opzioni">
+
+                    <li><a href="#">Novità e in evidenza</a></li>
+
+                    <li><a href="#">Uomo</a></li>
+
+                    <li><a href="#">Donna</a></li>
+
+                    <li><a href="#">Bambini</a></li>
+
+                    <li><a href="#">Outlet</a></li>
+
+                </ul>
+
+            </div>
+
+            <form action="submit"><!--questa è la barra di ricerca-->
+                <div class="searchbar">
+
+                    <!--icona lente di ingrandimento presa da "https://fonts.google.com/icons"-->
+                    <span class="material-symbols-outlined">search</span>
+
+                    <input type="search" placeholder="Cerca" class="search-input">
+                </div>
+            </form>
+
+                <!--icona preferiti presa da "https://fonts.google.com/icons"-->
+                <span class="material-symbols-outlined" id="favorite">favorite</span>
+
+                <!--icona carrello presa da "https://fonts.google.com/icons"-->
+                <a href="../CARRELLO/carrello.html"><span class="material-symbols-outlined" id="shopping_cart">shopping_cart</span></a>
+
+        </div>
+
+        <!--TERZO DIV HEADER-->
+        <div id="boxTerzo">
+
+            <h2>Consegna e resi gratuiti</h2>
+
+            <p>Per i Member Nike, consegna e resi gratuiti entro 30 giorni. <a href="#">Scopri di più.</a> <a href="#">Unisciti a noi</a> 
+            </p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!--HERO BANNER-->
+        <div id="hero-banner">
+
+            <a href="https://www.nike.com/it/w/nike-style-by-uk31">
+
+                <img src="Home-page/hero-banner.jpg" alt="hero-banner"><!--hero-banner-->
+
+                <div id="NikeStyleBy">
+
+                    <p>Nike Style By</p>
+
+                    <h1>NIKE V2K RUN</h1>
+
+                    <p>scopri la nuova silouette dal tocco vintage</p>
+
+                    <p id="acquista">Acquista</p>
+
+                </div>
+
+            </a>
+        </div>
+
+        <!--TUTTE LE MIGLIORI NOVITA'-->
+        <div id="tutte-le-migliori-novita">
+       
+            <section class="scrollable">
+                
+                <h3>Tutte le migliori novità</h3>
+        
+                <ul><!--per avere le stesse immagini del sito nike ho usato lo strumento di cattura-->
+
+                    <li><!--ho reso le immagini dei link perchè sul sito sono cliccabili e portano a una pagina di destinazione-->
+                        <a href="https://www.nike.com/it/w/run-in-the-rain-22odcz3rauvz5e1x6znik1">
+                            <img src="img-novita/running-nike.png">
+                            <span>Articoli da running per ogni condizione meteo</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://www.nike.com/it/w/giacche-smanicati-50r7y">
+                            <img src="img-novita/outerwear.png">
+                            <span>Outerwear</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://www.nike.com/it/w/palestra-58jto">
+                            <img src="img-novita/fitness.png">
+                            <span>Articoli indispensabili per il fitness</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://www.nike.com/it/w/lifestyle-fleece-13jrmz4xh6q">
+                            <img src="img-novita/fleece.png">
+                            <span>Nike fleece</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://www.nike.com/it/w/air-max-a6d8h">
+                            <img src="img-novita/airmax.png">
+                            <span>Air max</span>
+                        </a>
+                    </li>
+        
+                </ul>
+        
+            </section>     
+    
+        </div>
+
+
+        <!--TREND DELLA SETTIMANA-->
+        <div id="trend-della-settimana">
+
+            <section class="scarpe-scrollabili">
+
+                <h3>Trend della settimana</h3>
+        
+                <ul> <!--IMMAGINI-->
+                    <!--le scarpe visualizzabili e "acquistabili sono scarpa_1 (verde e bianca) e scarpa_7 (bianca e nera)"-->
+                     <li>
+                        <img src="Home-page/scarpa_8.jpg">
+                        <span>Nike Dunk Low Retro</span><br>
+                        <span class="genere">Scarpa - Uomo</span><br>
+                        <span class="prezzo">119.99€</span><!--ho deciso di usare 2 span separati (uno per il prezzo in cifre e l'altro per il simbolo dell'euro per essere più comodo quando in JS farò la somma del totale)-->
+                    </li>
+                    
+                    <li>
+                        <a href="../SCARPA1/scarpa1.html"><!--collego l'elemento alla pagina scarpe-->
+                            <img src="Home-page/scarpa_7.jpg">
+                            <span>Nike Dunk Low</span><br>
+                            <span class="genere">Scarpa - Ragazzi</span><br>
+                            <span class="prezzo">94.99€</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <img src="Home-page/scarpa_2.jpg">
+                        <span>Nike Air Force 1'04</span><br>
+                        <span class="genere">Scarpa - Uomo</span><br>
+                        <span class="prezzo">119.99€</span>
+                    </li>
+        
+                    <li>
+                        <img src="Home-page/scarpa_3.jpg">
+                        <span>Nike Dunk Low</span><br>
+                        <span class="genere">Scarpa - Uomo</span><br>
+                        <span class="prezzo">119.99€</span>
+                    </li>
+        
+                    <li>
+                        <a href="../SCARPA2/scarpa2.html"><!--collego l'elemento alla pagina scarpe-->
+                            <img src="Home-page/scarpa_1.jpg">
+                            <span>Nike Dunk Low Retro</span><br>
+                            <span class="genere">Scarpa - Donna</span><br>
+                            <span class="prezzo">119.99€</span>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <img src="Home-page/scarpa_6.jpg">
+                        <span>Nike Dunk Low</span><br>
+                        <span class="genere">Scarpa - Uomo</span><br>
+                        <span class="prezzo">119.99€</span>
+                    </li>
+
+                    <li>
+                        <img src="Home-page/scarpa_5.jpg">
+                        <span>Air Jordan 1 Mid</span><br>
+                        <span class="genere">Scarpa - Donna</span><br>
+                        <span class="prezzo">139.99€</span>
+                    </li>
+
+                    <li>
+                        <img src="Home-page/scarpa_4.jpg">
+                        <span>Nike Air Force 1'07 EasyOn</span><br>
+                        <span class="genere">Scarpa - Donna</span><br>
+                        <span class="prezzo">119.99€</span>
+                    </li>
+
+                </ul>
+        
+            </section> 
+        </div>
+
+        <!--ACQUISTA PER SPORT-->
+        <section id="acquista-sport">
+
+            <h3>Acquista per sport</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/sport_1.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/sport_2.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/sport_3.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/sport_4.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/sport_5.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/sport_6.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!--MEMBERSHIP NIKE-->
+        <section id="membership">
+
+            <h3>Membrship Nike</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/banner_2.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/banner_5.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/banner_6.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/banner_1.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/banner_3.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="Home-page/banner_4.jpg">
+                        <span></span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+       
+    </main>
+
+</body>
+
+</html>

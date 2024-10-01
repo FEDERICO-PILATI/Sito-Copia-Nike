@@ -1,0 +1,390 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    max-width: 1400px;
+}
+
+
+/*-----------------------------INIZIO PRIMO BOX HEADER-----------------------------*/
+#boxPrimo{
+    width: 100%;
+    background-color: #eee;
+    margin: 0;
+    padding: 15px;
+    overflow: auto; /*serve per far "vedere" i figli che hanno float*/
+    position: relative;
+}
+
+#boxPrimo ul{
+    padding: 0;
+    margin: 0;
+    overflow: auto; /*serve per far "vedere" i figli con float*/
+    float: right;
+}
+
+#boxPrimo li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+    color: black;
+    font-weight: bold;
+    border-right: 1px solid black;
+    display: inline; /*ho usato INLINE anzichè usare vari float*/
+}
+
+#boxPrimo ul li:last-child{
+    border: none; /*tolgo il bordo all'ultimo figlio*/
+}
+
+#boxPrimo #icona-air-jordan{
+    display: inline;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    /*left: 80px;*/
+    left: 3%;
+}
+
+#boxPrimo #icona-converse{
+    display: inline;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    /*left: 130px;*/
+    left: 8%;
+}
+
+
+/*-----------------------------INIZIO SECONDO BOX HEADER-----------------------------*/
+#boxLogo{
+    overflow: auto;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;  /*questa proprietà e la sottostante allineano gli elementi in orizzontale*/
+    align-items:center;
+}
+
+#logo{
+    max-width: 8%;
+    float: left;
+    margin-right: 30px;
+}
+
+#boxOpzioni{
+    text-align: center;
+    width: 70%;/*70% della width del body*/
+    overflow: auto;
+}
+
+#opzioni{
+    width: 70%; /*70% della width di boxOpzioni, così resta un po' di spazio per distanziare dagli altri box*/
+    padding: 10px;
+    display: flex; /*questa proprietà e la sottostante allineano gli elementi in orizzontale*/
+    align-items: center;
+    overflow: auto;
+    
+}
+
+#opzioni li{
+    width: max-content;/*la width si regola in base al contenuto*/
+    display: inline;
+    margin: 0 auto;
+    float: left;
+}
+
+#opzioni li a{
+    display: inline;
+    color: black;
+    font-size: .85em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.searchbar{
+    width: max-content;/*il contenitore prende la grandezza del contenuto*/
+    display: flex; /*allinea gli elementi*/
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 120px;
+    background: transparent;
+    outline: none;/*toglie il bordo che gli input hanno di default*/
+    border: none;
+}
+
+#favorite{
+    float: right;
+    cursor: pointer;
+}
+
+#shopping_cart{
+    float: right;
+    cursor: pointer;
+    color: black;
+}
+
+
+/*-----------------------------INIZIO TERZO BOX HEADER-----------------------------*/
+#boxTerzo{
+    background-color: #eee;
+    color: black;
+    font-size: 1em;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+#boxTerzo a{
+    text-decoration-color: black;
+    color: black;
+    font-weight: bold;
+}
+/*--------------------------------------FINE HEADER-------------------------------*/
+
+
+
+
+#principale{
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+main{
+    width: 80%;
+    overflow: auto;
+    margin-top: 50px;
+}
+/*----------------------scarpe osservabili con :hover----------------------------*/
+
+
+#osserva-scarpe{
+    display: flex;
+    flex-direction: row;/*allinea in orizzontale*/
+    float: left;
+}
+
+#selezione-taglia{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+#scarpe-verticali{
+    display: flex;
+    flex-direction: column;/*allinea in verticale*/
+    width: 10%;
+}
+
+main section{
+    width: 48%;
+    display: flex;
+    flex-direction: row;/*allinea in orizzontale*/
+}
+
+.scarpa_hover{
+    width: 40px;
+    cursor: pointer;
+}
+
+.scarpa_hover a{
+    text-decoration: none;
+
+}
+
+.scarpa_hover img{
+    width: 100%;
+}
+
+.scarpa_hover video{
+    width: 100%;
+}
+
+#img-grande{
+    width: 80%;
+}
+
+#img-grande img{
+    width: 100%;
+}
+
+#img-grande video{
+    width: 100%;
+}
+
+
+
+/*--------------------------SCEGLI LA TAGLIA--------------------------------------*/
+#boxtaglie{
+    width: 100%;
+    overflow: auto;
+}
+
+#boxtaglie h3{
+    text-align: center;
+}
+
+#selezione-taglia span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#selezione-taglia #titolo{
+    font-size: 1.5em;
+}
+
+.taglie{
+    width: 32%;
+    margin: 2px;
+    border: 1px solid #cccccc;
+    float: left;
+    text-align: center;
+    padding: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+#selezione-taglia button{
+    width: max-content;
+    display: block;
+    outline: none;
+    border-radius: 30px;
+    padding: 18px 25px;
+    /*border: none;*/
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.avviso{
+    color: rgb(153, 0, 0);
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.selezionata{
+    border: solid 1px rgb(153, 0, 0);
+}
+
+#aggiungi-carrello{
+    background-color: black;
+    color: white;
+}
+
+#aggiungi-preferiti{
+    background-color: white;
+    color: black;
+    border: 2px solid #a3a3a3;
+    text-align: center;
+    position: relative;
+}
+
+#aggiungi-preferiti:hover{
+    border: 2px solid black;
+}
+
+
+/*-------------------POPUP ' AGGIUNTO AL CARRELLO '--------------------------------------*/
+
+#popupSfondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    z-index: 2;
+    background-color: #131313c5;
+    overflow: auto;
+    visibility: hidden;
+}
+
+#popup{
+    overflow: auto;
+    background-color: white;
+    max-width: 360px;
+    padding: 25px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 3;
+}
+
+#popup *{
+    font-size: 1em;
+}
+
+#aggiunto{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#riepilogo{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#foto{
+    width: 100px;
+    float: left;
+}
+
+#foto img{
+    width: 100%;
+}
+
+#descrizione{
+    width: 200px;
+    float: right;
+}
+
+#descrizione span{
+    display: block;
+    margin: 7px auto;
+}
+
+#descrizione #genere,#tagliaScelta{
+    color: grey;
+}
+
+
+.button{ /*in questo modo lo do a entrambi i bottoni*/ 
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;/*e' di default nei button*/
+    cursor: pointer;
+    width: max-content;
+    
+}
+
+#popup #visualizzaCarrello{
+    float: left;
+    color: black;
+    border: 2px solid black;
+}
+
+#popup #pagamento{
+float: right;
+color: white;
+background-color: black;
+}

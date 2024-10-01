@@ -1,0 +1,229 @@
+<!--HO DECISO DI INSERIRE LE REGOLE CSS DENTRO IL FILE HTML PER NON AVERE TROPPI FILE-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scarpa2</title>
+
+
+
+        <!--icona della lente di ingrandimento presa da "https://fonts.google.com/icons"-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+        <!--icona per i preferiti presa da "https://fonts.google.com/icons"-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+        <!--icona carrello della spesa presa da "https://fonts.google.com/icons"-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+        <link rel="stylesheet" href="scarpa2.css">
+
+        <script src="../scarpe.js" defer></script><!--collego il file javascript-->
+
+
+</head>
+
+
+<body>
+    
+    <header>
+
+        <!--ho replicato l'header siccome sarà uguale-->
+
+        <!--PRIMO DIV HEADER-->
+        <div id="boxPrimo">
+
+            <img src="../MAIN/icone/icona-air-jordan.png" alt="icona-air-jordan" id="icona-air-jordan">
+
+            <img src="../MAIN/icone/icona-converse.png" alt="icona-converse" id="icona-converse">
+
+            <ul>
+                <li>Trova un negozio</li>
+                <li>Aiuto</li>
+                <li>Unisciti a noi</li>
+                <li>Accedi</li>
+            </ul>
+        </div>
+
+        <!--SECONDO DIV HEADER-->
+        <div id="boxLogo">
+
+           <img src="../logo.png" alt="logo" id="logo"> 
+
+            <div id="boxOpzioni">
+
+                <ul id="opzioni">
+
+                    <li><a href="#">Novità e in evidenza</a></li>
+
+                    <li><a href="#">Uomo</a></li>
+
+                    <li><a href="#">Donna</a></li>
+
+                    <li><a href="#">Bambini</a></li>
+
+                    <li><a href="#">Outlet</a></li>
+
+                </ul>
+
+            </div>
+
+            <form action="submit">
+                <div class="searchbar">
+
+                    <span class="material-symbols-outlined">search</span>
+
+                    <input type="search" placeholder="Cerca" class="search-input">
+                </div>
+            </form>
+
+                <span class="material-symbols-outlined" id="favorite">favorite</span>
+
+                <a href="../CARRELLO/carrello.html"><span class="material-symbols-outlined" id="shopping_cart">shopping_cart</span></a>
+
+        </div>
+
+        <!--TERZO DIV HEADER-->
+        <div id="boxTerzo">
+
+            <h2>Consegna e resi gratuiti</h2>
+
+            <p>Per i Member Nike, consegna e resi gratuiti entro 30 giorni. <a href="#">Scopri di più.</a> <a href="#">Unisciti a noi</a> 
+            </p>
+        </div>
+    </header>
+    <!--------------------------------FINE HEADER------------------------------------------>
+
+
+    <section id="principale">
+
+        <main>
+
+
+            <!--queste sono le immagini osservabili con :hover-->
+            <section id="osserva-scarpe">
+
+                <section id="scarpe-verticali">
+
+                    <div class="scarpa_hover" id="scarpa1">
+                        <a href="#"><img src="Scarpa_2/1.jpg" alt=""></a><!--li ho creati come link per renderli anche cliccabili-->
+                    </div>
+
+                    <div class="scarpa_hover" id="scarpa2">
+                        <a href="#"><img src="Scarpa_2/2.jpg" alt=""></a>
+                    </div>
+
+                    <div class="scarpa_hover" id="scarpa3">
+                        <a href="#"><img src="Scarpa_2/3.jpg" alt=""></a>
+                    </div>
+
+                    <div class="scarpa_hover" id="scarpa4">
+                        <a href="#"><img src="Scarpa_2/4.jpg" alt=""></a>
+                    </div>
+
+                    <div class="scarpa_hover" id="scarpa5">
+                        <a href="#"><img src="Scarpa_2/5.jpg" alt=""></a>
+                    </div>
+
+                    <div class="scarpa_hover" id="scarpa6">
+                        <a href="#"><img src="Scarpa_2/6.jpg" alt=""></a>
+                    </div>
+
+                    <div class="scarpa_hover" id="scarpa7">
+                        <a href="#"><img src="Scarpa_2/7.jpg" alt=""></a>
+                    </div>
+
+                    <div class="scarpa_hover">
+                        <video autoplay muted loop  src="Scarpa_2/video.mp4" type="video/mp4"></video>
+                    </div>
+
+                </section>
+
+                <div id="img-grande">
+                    <img src="Scarpa_2/1.jpg" alt="">
+                </div>
+
+            </section>
+
+
+            <section id="selezione-taglia">
+
+                <span id="titolo">Nike Dunk Low Retro</span><br>
+                <span class="genere">Scarpa - Donna</span><br>
+                <span class="prezzo">94.99€</span>
+
+                <h3>seleziona la taglia</h3>
+                <ul id="boxtaglie">
+                    
+                    <!--queste sono le 18 taglie che si possono scegliere-->
+                    <li class="taglie">EU 38.5</li>
+                    <li class="taglie">EU 39</li>
+                    <li class="taglie">EU 40</li>
+                    <li class="taglie">EU 40.5</li>
+                    <li class="taglie">EU 41</li>
+                    <li class="taglie">EU 42</li>
+                    <li class="taglie">EU 42.5</li>
+                    <li class="taglie">EU 43</li>
+                    <li class="taglie">EU 44</li>
+                    <li class="taglie">EU 44.5</li>
+                    <li class="taglie">EU 45</li>
+                    <li class="taglie">EU 45.5</li>
+                    <li class="taglie">EU 46</li>
+                    <li class="taglie">EU 47</li>
+                    <li class="taglie">EU 47.5</li>
+                    <li class="taglie">EU 48</li>
+                    <li class="taglie">EU 49</li>
+                    <li class="taglie">EU 49.5</li>
+                </ul>
+
+                <span class="avviso">Devi scegliere una taglia!</span>
+
+                <button id="aggiungi-carrello">
+                    Aggiungi al carrello
+                </button>
+
+                <button id="aggiungi-preferiti">
+                    Aggiungi ai preferiti
+                    <span class="material-symbols-outlined" id="favorite">favorite</span>
+                </button>
+        
+            </section>
+
+
+                <span id="popupSfondo">
+                    
+                    <div id="popup">
+
+                        <span id="aggiunto">aggiunto al carrello</span>
+
+                        <div id="riepilogo">
+
+                            <div id="foto">
+                                <img src="Scarpa_2/6.jpg">
+                            </div>
+
+                            <div id="descrizione">
+                                <span id="titolo">Nike Dunk Low Retro</span>
+                                <span id="genere">Scarpa - Donna</span>
+                                <span id="tagliaScelta"></span>
+                                <span class="prezzo">94.99€</span>
+                            </div>
+                        
+                        </div>
+
+                        <button id="visualizzaCarrello" class="button">Visualizza carrello (1)</button>
+                        <button id="pagamento" class="button">Pagamento</button>
+
+                    </div>
+
+                </span>
+        
+        </main>
+
+    </section>
+
+</body>
+</html>
