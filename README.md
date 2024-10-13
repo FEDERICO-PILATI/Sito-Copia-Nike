@@ -1,3 +1,5 @@
-Questo è finora il mio progetto più grande ed è anche uno dei primi progetti fatti.
-In questo progetto ho ricreato il layout del sito Nike, cercando di essere più fedele possibile (adesso credo lo abbiano cambiato :/ ).
-Le proprietà css che ho usato sono un po' 'rigide' perchè come ho già detto questo è stato uno dei primi progetti che ho fatto, quando ancora non conoscevo bene css e quando ancora non sapevo dei benefici del display:flex
+Questo è stato uno dei miei primi progetti e, al momento, il più grande. In questo progetto ho ricreato il layout del sito Puma (che credo sia cambiato nel frattempo) utilizzando principalmente HTML e CSS di base.
+
+Le proprietà CSS usate possono sembrare rigide, in quanto all'epoca non conoscevo ancora tecniche avanzate come flexbox. Inoltre, avevo appena iniziato con JavaScript, quindi le funzionalità interattive sono limitate.
+
+I commenti presenti nel codice mostrano la mia volontà di imparare e migliorare, nonostante la poca esperienza all'epoca. Oggi sarei sicuramente in grado di affrontare il progetto con un approccio più moderno ed efficiente, ma ritengo che questo progetto sia una testimonianza del mio percorso di crescita e una delle pietre miliari del mio percorso.
