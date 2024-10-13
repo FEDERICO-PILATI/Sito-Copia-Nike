@@ -1,9 +1,4 @@
-/*------------------------------------DISCLAIMER-----------------------------*/
-
-/*ho provato a cercare e usare proprietà non trattate al corso ma che ho trovato su internet, principalmente per creare le barra di ricerca (come le icone di google fonts e il display flex). Ci tenevo a sottolineare che mi sono sforzato si capire a cosa servono queste proprietà, senza fare "copia e incolla" mi scuso quindi se il mio codice non è corretto ma volevo provare qualcosa di nuovo*/
-/*----------------------------------------------------------------------------*/
-
-
+ 
 *{
     font-family: sans-serif;
     box-sizing: border-box;
